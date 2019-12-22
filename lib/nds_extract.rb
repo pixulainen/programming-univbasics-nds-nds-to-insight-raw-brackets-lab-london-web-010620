@@ -21,3 +21,5 @@ while director_index < nds.size do
   result[curent_director] = gross_income(nds[director_index])
 director_index += 1
 end
+result
+end
