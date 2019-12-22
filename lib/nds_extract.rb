@@ -23,3 +23,7 @@ director_index += 1
 end
 result
 end
+def gross_income(director_movies)
+  movie_index = 0 
+  while 
+end
