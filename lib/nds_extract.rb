@@ -18,7 +18,7 @@ def directors_totals(nds)
   director_index= 0 
     while director_index < nds.size do
       curent_director = nds[director_index][:name]
-      result[curent_director] = gross_income(nds[director_index)
+      result[curent_director] = gross_inc(nds[director_inde)
       director_index += 1
     end
   result
