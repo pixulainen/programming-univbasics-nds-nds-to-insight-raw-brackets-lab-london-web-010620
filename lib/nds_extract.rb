@@ -23,7 +23,15 @@ director_index += 1
 end
 result
 end
+
+
 def gross_income(director_movies)
   movie_index = 0 
-  while 
+  movie= director_movies[:movies]
+  total_gross = 0
+  while movie_index < movie.size do
+  total_gross += movie[movie_index][:worldwide_gross]
+  movie_index+=1
+end
+total_gross
 end
